@@ -1,0 +1,34 @@
+# Core dependencies for Trading Bot
+# Note: Install with pip install --no-deps for alpaca-trade-api if conflicts occur
+alpaca-trade-api==3.2.0
+yfinance==1.0
+websockets==15.0.1
+pandas>=2.3.0
+numpy>=2.4.0
+scikit-learn>=1.8.0
+scipy>=1.16.0
+joblib>=1.5.0
+
+# Visualization
+matplotlib>=3.10.0
+seaborn>=0.13.0
+pillow>=12.0.0
+
+# Technical Analysis
+ta-lib>=0.6.0
+
+# Utilities
+requests>=2.32.0
+python-dotenv>=1.2.0
+schedule>=1.2.0
+tqdm>=4.67.0
+beautifulsoup4>=4.14.0
+PyYAML>=6.0.0
+
+# Jupyter / Notebooks
+ipykernel>=7.1.0
+jupyter_client>=8.7.0
+jupyter_core>=5.9.0
+
+# Data Storage
+peewee>=3.18.0

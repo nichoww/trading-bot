@@ -1,0 +1,98 @@
+# Environment and secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs (keep structure, ignore content)
+logs/**/*.log
+logs/**/*.csv
+logs/**/*.txt
+!logs/.gitkeep
+!logs/realtime/.gitkeep
+
+# Data files (keep structure, ignore content)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.png
+data/processed/eda_charts/
+data/processed/model_charts/
+data/realtime/*.json
+data/realtime/parquet/
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/realtime/.gitkeep
+
+# Model files (large binary files)
+models/*.joblib
+models/*.pkl
+models/*.json
+!models/.gitkeep
+
+# Feature importance files (can be regenerated)
+models/*.csv
+
+# Backtest results
+backtest_results/*.csv
+!backtest_results/.gitkeep
+
+# Nested realtime data/logs (duplicates)
+src/realtime/data/
+src/realtime/logs/
+
+# Parquet files
+*.parquet
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
